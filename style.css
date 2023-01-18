@@ -85,7 +85,16 @@ button {
   background-color: #222;
   padding: 50px;
 }
-
+.tv{
+  background-image: url(/images/sport_2-wallpaper-2400x1350.jpg);
+  background-size: cover;
+  padding: 100px;
+}
+iframe{
+  border: 5px solid #222;
+  height: 350px;
+  width: 600px;
+}
 .plan-section {
   padding: 50px 0;
   background-color: black;
@@ -111,6 +120,27 @@ th {
   padding: 50px 0;
   text-align: center;
 }
+form {
+  padding: 50px;
+  background-color: #333;
+  background-size: cover;
+  background: #222;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label,
+input,
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .footer{
   display: flex;
   justify-content: space-between;

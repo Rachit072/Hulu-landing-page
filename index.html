@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hulu</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/380ccf7598.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header> 
@@ -15,14 +16,14 @@
                     <img style="width: 100px; height: 50px;" src="https://www.logo.wine/a/logo/Hulu/Hulu-Logo.wine.svg" alt="">
                 </div>
                 <div style="padding-top: 10px; padding-left:5px;" class="login">
-                    <button>Login Here</button>
+                    <button ><a style="text-decoration: none; color: white;" href="#login">Login Here</a></button>
                     
                 </div>
             </nav>
         </div>
     </header>
     <div class="main-section">
-        <h2 style="color: green; font-weight: bolder;">DISNEY BUNDLE TRIO BASIC</h2>
+        <h2 style="color: green; font-weight: bolder;">DISNEY BUNDLE TRIO BASIC</h2><br>
             <ul  class="logos">
               <li class="item">
                 <img src="https://www.logo.wine/a/logo/Hulu/Hulu-Logo.wine.svg" alt="Hulu">
@@ -34,7 +35,7 @@
                <img style="height: 130px; padding-top: 80px;" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Espn%2B.png" alt="">
               </li>
             </ul>
-          </nav>
+          <br><br>
         <p>Get Hulu, Disney+, and ESPN+, all with ads.</p><br>
          <button>Get All Three Here</button><br>
          <p><a href="#" style="color: white;">Sign up for Hulu only</a></p><br>
@@ -77,11 +78,27 @@
         <p style="color: green;">HULU (WITH ADS) + LIVE TV, NOW WITH DISNEY+ (WITH ADS) AND ESPN+ (WITH ADS)</p>
         <h1 style="color: white; font-weight: bold;">Live TV Makes It Better</h1>
         <p style="color: white;">Make the switch from cable. Get 85+ top channels on Hulu (With Ads) + Live TV with your favorite live sports, news, and events - plus the entire Hulu streaming library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward through your DVR content. Access endless entertainment with Disney+ and live sports with ESPN+. </p>
+        <h2><a href="#tv" style="color: white;">VIEW CHANNELS IN YOUR AREA</a></h2>
       </div>
+      <div id="tv">
+        <div class="tv">
+          <h1 style="color: white;">Live Sports</h1>
+          <p style="color: white;">Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.</p>
+          <br>
+          <ul class="tvbullet" style="list-style: none;">
+            <li>LIVE SPORTS</li>
+            <li>BREAKING NEWS</li>
+            <li>BIGGEST EVENTS</li>
+          </ul>
+          <div id="monitorscreen">
+            <iframe src="/images/video.mp4" frameborder="15px"></iframe>
+          </div>
+        </div>
+        </div>
       <div class="plan-section">
         <h1 style="color: green; text-align: center;">Select Your Plan</h1>
-        <p style="text-align: center;">No hidden fees, equipment rentals, or installation appointments.
-            Switch plans or cancel anytime.**</p>
+        <p style="text-align: center; color: white;">No hidden fees, equipment rentals, or installation appointments.
+            Switch plans or cancel anytime.**</p><hr>
         <table>
           <tr>
             <th>Disney Bundle Trio Basic
@@ -111,6 +128,15 @@
           </tr>
         </table>
       </div>
+      <div class="loginpg" id="login">
+        <form>
+          <label for="name">User Name:</label>
+          <input  placeholder="User Name" type="text" name="name" />
+          <label for="pass">Password</label>
+          <input  placeholder="Password" type="password" name="pass" />
+          <button>Login</button>
+        </form>
+      </div><hr>
     <div class="footer">
       <div class="footer-links">
         <ul>
@@ -122,11 +148,12 @@
       </div>
       <div class="social-media-links">
         <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Twitter</a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
       </div>
     </div>
+    <footer style="text-align: center; font-weight: bold;">© 2023 Hulu, LLC</footer>
 </body>
 </html>
